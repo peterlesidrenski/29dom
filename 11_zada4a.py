@@ -1,0 +1,5 @@
+input_text = input()
+upper_text = input_text.upper()
+words = upper_text.split()
+all_end_with_o = all(word.endswith('О') for word in words)
+print(f"{upper_text}, {words}, {all_end_with_o}")

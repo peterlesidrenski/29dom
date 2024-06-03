@@ -1,0 +1,5 @@
+input_text = input()
+words = input_text.split()
+count_words_with_i = sum('и' in word for word in words)
+joined_text = ":".join(words)
+print(f"{joined_text}, и = {count_words_with_i}")

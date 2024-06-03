@@ -1,0 +1,5 @@
+input_text = input()
+words = input_text.split()
+joined_text = "/".join(words)
+count_b = input_text.lower().count('б')
+print(f"{joined_text}, б = {count_b}")

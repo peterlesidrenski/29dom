@@ -1,0 +1,5 @@
+input_text = input()
+lower_text = input_text.lower()
+words = lower_text.split()
+all_start_with_a = all(word.startswith('а') for word in words)
+print(f"{lower_text}, {words}, {all_start_with_a}")

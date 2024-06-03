@@ -1,0 +1,5 @@
+input_text = input()
+count_v = input_text.count('в')
+upper_text = input_text.upper()
+ends_with_A = upper_text.endswith('А')
+print(f"{upper_text}, в = {count_v}, {ends_with_A}")

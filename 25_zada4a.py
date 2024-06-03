@@ -1,0 +1,5 @@
+input_text = input()
+count_i = input_text.count('и')
+words = input_text.split()
+joined_text = ",".join(words)
+print(f"{joined_text}, и = {count_i}")

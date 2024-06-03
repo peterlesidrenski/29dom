@@ -1,0 +1,5 @@
+input_text = input()
+replaced_text = input_text.replace('е', 'а')
+words = replaced_text.split()
+joined_text = "-".join(words)
+print(f"{joined_text}")

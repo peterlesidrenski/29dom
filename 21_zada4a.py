@@ -1,0 +1,5 @@
+input_text = input()
+words = input_text.split()
+joined_text = ".".join(words)
+count_words_with_e = sum('е' in word for word in words)
+print(f"{joined_text}, е = {count_words_with_e}")
